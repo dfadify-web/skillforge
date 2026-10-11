@@ -1,0 +1,10 @@
+{
+  "name": "skillforge",
+  "version": "1.0.0",
+  "description": "Claude Code skills that write and improve themselves: turn repeated or painful tasks into skills, learn from every use, version and roll back.",
+  "bin": { "skillforge": "install.js" },
+  "scripts": { "test": "node --test test/*.test.js" },
+  "engines": { "node": ">=18" },
+  "keywords": ["claude-code", "skills", "agent", "self-improving", "hooks"],
+  "license": "MIT"
+}
